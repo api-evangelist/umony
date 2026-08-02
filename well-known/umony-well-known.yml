@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+host: https://umony.com
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+notes: >-
+  Probed 2026-07-21. Umony publishes no /.well-known/ discovery surface and
+  no llms.txt. No API hosts exist to probe beyond the website (api.umony.com,
+  docs.umony.com, developer(s).umony.com, trust.umony.com, and
+  status.umony.com do not resolve).
