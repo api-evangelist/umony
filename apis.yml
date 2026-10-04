@@ -50,7 +50,7 @@ tags:
 - Call Recording
 - Archiving
 - RegTech
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Compliance
@@ -59,6 +59,7 @@ tags_raw:
 - Archiving
 - RegTech
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
